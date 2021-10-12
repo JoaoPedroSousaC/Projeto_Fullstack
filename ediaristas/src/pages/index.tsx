@@ -8,7 +8,7 @@ import {FormElementsContainer, ProfissionaisContainer, ProfissionaisPaper} from 
 import useIndex from "../data/hooks/Page/useIndex.page";
 
 const Home: NextPage = () => {
-  const {cep, setCep} = useIndex();
+  const {cep, setCep, cepValido, buscarProfissionais, erro, diaristas, buscaFeita, carregando, diaristasRestantes} = useIndex();
   return (
     <div>
         <SafeEnvironment/>

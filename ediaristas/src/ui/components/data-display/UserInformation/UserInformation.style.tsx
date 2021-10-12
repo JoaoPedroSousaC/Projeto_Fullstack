@@ -6,10 +6,18 @@ export const UserInformationContainer = styled('div')`
   grid-template-columns: 60px 1fr;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: 'avatar name' 'avatar rating' 'avatar description';
-  background-color: ${({theme}) => theme.palette.grey[50]};
+  background-color: ${({theme}) => theme.palette.grey[200]};
   padding: ${({theme}) => theme.spacing(3)};
   align-items: center;
-  gap:  ${({theme}) => theme.spacing(0.5) +' '+ theme.spacing(2)};
+  gap: ${({theme}) => theme.spacing(0.5) + ' ' + theme.spacing(2)};
+  border-radius: 10px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
+
+  ${({theme}) => theme.breakpoints.down('md')} {
+    box-shadow: none;
+  }
+
 `;
 
 export const UserName = styled('div')`
