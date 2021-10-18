@@ -8,6 +8,10 @@ export const FormElementsContainer = styled('div')`
   gap: ${({ theme }) => theme.spacing(5)};
   max-width: 650px;
   margin: 0 auto ${({ theme }) => theme.spacing(7)};
+  ${({theme}) => theme.breakpoints.down('sm')} {
+    max-width: 380px;
+  }
+
   
 `;
 
@@ -18,6 +22,7 @@ export const ProfissionaisPaper = styled(Paper)`
   box-shadow: none;
   background-color: ${({theme}) => theme.palette.grey[100]};
   border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   
 
   ${({theme}) => theme.breakpoints.down('md')} {

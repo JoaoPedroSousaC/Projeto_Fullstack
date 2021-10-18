@@ -12,8 +12,9 @@ export const UserInformationContainer = styled('div')`
   gap: ${({theme}) => theme.spacing(0.5) + ' ' + theme.spacing(2)};
   border-radius: 10px;
 
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
-
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  
+  
   ${({theme}) => theme.breakpoints.down('md')} {
     box-shadow: none;
   }
@@ -21,10 +22,11 @@ export const UserInformationContainer = styled('div')`
 `;
 
 export const UserName = styled('div')`
-    grid-area: name;
-    font-weight: bolder;
-    color: ${({theme}) => theme.palette.text.primary};
-    font-size:${({theme}) => theme.typography.body2.fontSize } ;
+  grid-area: name;
+  font-weight: bolder;
+  color: ${({theme}) => theme.palette.text.primary};
+
+  font-size: ${({theme}) => theme.typography.body2.fontSize};
 
 `;
 export const UserDescription = styled('div')`
@@ -36,12 +38,11 @@ export const AvatarStyled = styled(Avatar)`
     grid-area: avatar;
     width: 100%;
     height: initial;
-    aspect-ratio: 1;
-    
+    aspect-ratio: 1;       
 
 `;
 export const RatingStyled = styled(Rating)`
-    grid-area: rating;
-    font-size: 14px;
-
+  grid-area: rating;
+  font-size: 14px;
+  
 `;

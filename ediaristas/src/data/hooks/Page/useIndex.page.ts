@@ -14,26 +14,25 @@ export default function useIndex(){
     [diaristas, setDiaristas] = useState([] as UserShotInterface[]),
     [diaristasRestantes, setDiaristasRestantes] = useState(0);
 
-    async function buscarProfissionais(cep: string){
+
+    async function buscarProfissionais(cep: string) {
         setBuscaFeita(false);
         setCarregando(true);
         setError('');
 
         try {
-           const {data} = await ApiService.get<{
-               diaristas: UserShotInterface[];
-               quantidade_diaristas: number;
-           }>('/api/diaristas-cidade?cep='+cep.replace(/\D/g, ''));
-           setDiaristas(data.diaristas);
-           setDiaristasRestantes(data.quantidade_diaristas);
-           setBuscaFeita(true);
-           setCarregando(false);
-        } catch (error){
+            const { data } = await ApiService.get<{
+                diaristas: UserShotInterface[];
+                quantidade_diaristas: number;
+            }>('/api/diaristas-cidade?cep=' + cep.replace(/\D/g, ''));
+            setDiaristas(data.diaristas);
+            setDiaristasRestantes(data.quantidade_diaristas);
+            setBuscaFeita(true);
+            setCarregando(false);
+        } catch (error) {
             setError('CEP não encontrado');
             setCarregando(false);
         }
-
-
     }
 
 
