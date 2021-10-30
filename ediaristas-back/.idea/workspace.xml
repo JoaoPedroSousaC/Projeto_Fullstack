@@ -5,11 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/templates/forms_diarista.html" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/templates/forms_diarista.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/web/templates/lista_diaristas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/templates/lista_diaristas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +112,7 @@
       <workItem from="1634777378464" duration="3996000" />
       <workItem from="1634904521528" duration="9622000" />
       <workItem from="1635204388482" duration="7658000" />
+      <workItem from="1635292394161" duration="3868000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@ from django.db import models
 class Diarista(models.Model):
 
     nome_completo = models.CharField(max_length=100, null=False, blank=False)
-    cpf = models.CharField(max_length=12, null=False, blank=False, unique=True)
+    cpf = models.CharField(max_length=11, null=False, blank=False, unique=True)
     email = models.EmailField(null=False, blank=False, unique=True)
     telefone = models.CharField(max_length=11, null=False, blank=False)
     logradouro = models.CharField(max_length=60, null=False, blank=False)
