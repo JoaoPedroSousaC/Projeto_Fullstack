@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2085f9-24a9-4842-9904-8a5ee8506a3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ediaristas_back/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ediaristas_back/api/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ediaristas-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ediaristas-back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/templates/lista_diaristas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/templates/lista_diaristas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,7 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ediaristas_back" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gamer\Documents\GitHub\Projeto_Fullstack\ediaristas-back\ediaristas_back\api" />
+      <recent name="C:\Users\gamer\Documents\GitHub\Projeto_Fullstack\ediaristas-back\ediaristas_back\web" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -113,6 +121,7 @@
       <workItem from="1634904521528" duration="9622000" />
       <workItem from="1635204388482" duration="7658000" />
       <workItem from="1635292394161" duration="3868000" />
+      <workItem from="1635809550827" duration="1334000" />
     </task>
     <servers />
   </component>
