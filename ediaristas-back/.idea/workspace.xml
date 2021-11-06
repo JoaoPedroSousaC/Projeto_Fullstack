@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2085f9-24a9-4842-9904-8a5ee8506a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ediaristas_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ediaristas_back/api/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ediaristas-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ediaristas-back.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ediaristas_back/api/serializer/diaristas_cidade_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ediaristas_back/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/api/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/api/pagination/diaristas_cidade_pagination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/api/services/cidade_atendimento_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/api/services/cidade_atendimento_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/forms/diarista_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/ediaristas_back/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ediaristas_back/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ediaristas_back/web/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ediaristas_back" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,6 +124,8 @@
       <workItem from="1635204388482" duration="7658000" />
       <workItem from="1635292394161" duration="3868000" />
       <workItem from="1635809550827" duration="1334000" />
+      <workItem from="1635836591047" duration="290000" />
+      <workItem from="1635890071263" duration="7548000" />
     </task>
     <servers />
   </component>
